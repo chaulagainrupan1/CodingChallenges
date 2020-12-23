@@ -26,7 +26,7 @@ def IntegertoRoman(integer):
 if __name__ == "__main__":
     integerNumber = int(input("Enter an integer: "))
     # handling invalid numbers and symbols
-    if(integerNumber <= 0):
-        print("Invalid input")
-    else:
+    if(integerNumber > 0):
         print(IntegertoRoman(integerNumber))
+    else:
+        print("invalid input")
